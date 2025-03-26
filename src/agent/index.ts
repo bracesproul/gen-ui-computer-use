@@ -102,5 +102,5 @@ export const graph = createCua({
   nodeAfterAction: (state, config) => afterNode(state, config),
   stateModifier: GraphAnnotation,
   recursionLimit: 150,
-  timeoutHours: 0.1,
+  timeoutHours: 0.01,
 });
