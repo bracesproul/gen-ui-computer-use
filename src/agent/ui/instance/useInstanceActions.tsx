@@ -45,8 +45,8 @@ export function useInstanceActions({ instanceId }: { instanceId: string }) {
       stream.submit(null, {
         command: {
           update: {
-            instanceId: undefined,
-            streamUrl: undefined,
+            instanceId: null,
+            streamUrl: null,
           },
           goto: "__end__",
         },
